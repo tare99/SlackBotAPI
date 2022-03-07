@@ -1,0 +1,8 @@
+CREATE TABLE Student
+(
+    id int NOT NULL,
+    ime varchar(50) NOT NULL,
+    prezime varchar(50) NOT NULL,
+    brojIndeksa  varchar(12) NOT NULL,
+    PRIMARY KEY(id)
+)
